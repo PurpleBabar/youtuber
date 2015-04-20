@@ -88,6 +88,7 @@
                         }
                         div += playButton + '</div>';
                         $(this).append(div);
+                        var frame = "<iframe "+ specs +" src=\"https://www.youtube.com/embed/"+ code +"?autoplay=1\" allowfullscreen></iframe>";
                     }else{
                         $(this).append(frame);
                     }
